@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="col" id="input">
+            <span id="size" style="color:aliceblue">Size
+                <input id="arr_sz" type="range" min="5" max="100" step=1 value=60>
+            </span>
+            <span id="speed" style="color:aliceblue">Speed
+              <input id="speed_input" type="range" min="1" max="100" step=1 value=60>
+            </span>
+          </div>
+          
+          <ul class="nav navbar-nav">
+            <li><button type="button" id="new-array">New Array</button></li>
+            <li><button class="sortbtn" id="bubbleSort">Bubble sort</button></li>
+            <li><button class="sortbtn" id="selectionSort">Selection Sort</button></li>
+            <li><button class="sortbtn" id="insertionSort">Insertion Sort</button></li>
+            <li><button class="sortbtn" id="quickSort">Quick Sort</button></li>
+            <li><button class="sortbtn" id="mergeSort">Merge Sort</button></li>
+          </ul>
+        </div>
+        <div id="height-array"></div>
+    </nav>
+<body>
+    <script src="app.js"></script>
+    <script src="bubbleSort.js"></script>
+    <script src="mergeSort.js"></script>
+    <script src="selectionSort.js"></script>
+    <script src="insertionSort.js"></script>
+    <script src="quickSort.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+

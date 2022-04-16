@@ -1,0 +1,50 @@
+body{
+    background-color: #383838;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#new-array{
+    margin-right: 400px;
+}
+.sortbtn{
+    margin-right: 10px;
+}
+.navbar{
+    background-color: #383838;
+    border-color: #383838;
+}
+button{
+    border: solid 1px #00FFC6;
+    border-radius: 20px;
+    background-color: #383838;
+    color: #00FFC6;
+}
+#height-array{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.heights{
+    margin-right: 1px;
+}
+#arr_sze{
+    background-color: aqua;
+}
+.container-fluid{
+    display: flex;
+}
+.col{
+    display: flex;
+    margin-right: 50px;
+}
+#new-array{
+    margin-right: 50px;
+}
+#size{
+    margin-right: 10px;
+}
