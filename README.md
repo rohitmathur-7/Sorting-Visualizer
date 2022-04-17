@@ -1,4 +1,4 @@
-# Sorting-Visualizer
+# Sorting-Visualizer: https://sorting-visualizer-site.netlify.app/
 This is a Website where we can visualize different sorting algorithms.
 
 Functionalities -
